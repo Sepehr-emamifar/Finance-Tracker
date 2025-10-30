@@ -14,7 +14,7 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public:{
-      baseUrl: process.env.BASE_URl ?? "http://localhost:3000/"
+      baseUrl: process.env.BASE_URL ?? "http://localhost:3000/"
     }
   }
 });
