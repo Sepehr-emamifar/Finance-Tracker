@@ -5,8 +5,10 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: false },
   modules: ["@nuxt/ui", "@nuxtjs/supabase" , '@nuxt/icon'],
-
   css: ["~/assets/css/main.css"],
+  colorMode: {
+    preference: 'dark'
+  }
   supabase: {
     redirect: true,
     // url: process.env.SUPABASE_URL,
