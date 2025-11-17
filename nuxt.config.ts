@@ -8,7 +8,7 @@ export default defineNuxtConfig({
   css: ["~/assets/css/main.css"],
   colorMode: {
     preference: 'dark'
-  }
+  },
   supabase: {
     redirect: true,
     // url: process.env.SUPABASE_URL,
